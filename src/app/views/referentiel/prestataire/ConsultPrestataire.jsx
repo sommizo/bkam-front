@@ -22,7 +22,7 @@ const ConsultNaturePrestation = () => {
             <div className="breadcrumb">
                 <Breadcrumb
                     routeSegments={[
-                        { name: 'Material', path: '/material' },
+                        { name: 'referentiel', path: '/referentiel/naturePrestation/consultNaturePrestation' },
                         { name: 'Prestataires' },
                     ]}
                 />
