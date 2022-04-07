@@ -41,8 +41,23 @@ export const navigations = [
 
         children: [
             {
-                name: 'Nature de Prestation',
-                path: '/referentiel/naturePrestation/ajouterNaturePrestation',
+                name: 'Ajouter Nature de Prestation',
+                path: '/referentiel/naturePrestation/ajoutNaturePrestation',
+                iconText: 'E',
+            },
+            {
+                name: 'Consulter Nature de Prestation',
+                path: '/referentiel/naturePrestation/consultNaturePrestation',
+                iconText: 'E',
+            },
+            {
+                name: 'Ajouter un Prestataire',
+                path: '/referentiel/prestataire/ajoutPrestataire',
+                iconText: 'E',
+            },
+            {
+                name: 'Consulter les Prestataires',
+                path: '/referentiel/prestataire/consultPrestataire',
                 iconText: 'E',
             },
         ],

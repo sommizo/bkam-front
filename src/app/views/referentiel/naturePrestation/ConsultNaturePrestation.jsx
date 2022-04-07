@@ -1,5 +1,5 @@
 import React from 'react'
-import NaturePrestationForm from './NaturePrestationForm'
+import NaturePrestationTable from './NaturePrestationTable'
 import { Breadcrumb, SimpleCard } from 'app/components'
 import { Box, styled } from '@mui/system'
 
@@ -16,22 +16,26 @@ const Container = styled('div')(({ theme }) => ({
     },
 }))
 
-const NaturePrestation = () => {
+const ConsultNaturePrestation = () => {
     return (
         <Container>
             <div className="breadcrumb">
                 <Breadcrumb
                     routeSegments={[
-                        { name: 'Referentiel', path: '/naturePrestation' },
+                        { name: 'referentiel', path: '/referentiel/naturePrestation/consultNaturePrestation' },
                         { name: 'Nature de Prestation' },
                     ]}
                 />
             </div>
-            <SimpleCard title="Nature de Prestation">
-                <NaturePrestationForm />
+            <SimpleCard title="Natures de Prestation">
+                <NaturePrestationTable />
             </SimpleCard>
+            {/* <Box py="12px" />
+            <SimpleCard title="Pagination Table">
+                <PaginationTable />
+            </SimpleCard> */}
         </Container>
     )
 }
 
-export default NaturePrestation
+export default ConsultNaturePrestation

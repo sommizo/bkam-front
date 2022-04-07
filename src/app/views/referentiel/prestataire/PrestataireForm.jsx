@@ -20,7 +20,7 @@ const TextField = styled(TextValidator)(() => ({
     marginBottom: '16px',
 }))
 
-const NaturePrestationForm = () => {
+const PrestataireForm = () => {
     const [state, setState] = useState({
         date: new Date(),
     })
@@ -118,4 +118,4 @@ const NaturePrestationForm = () => {
     )
 }
 
-export default NaturePrestationForm
+export default PrestataireForm
